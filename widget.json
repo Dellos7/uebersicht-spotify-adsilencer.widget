@@ -1,0 +1,7 @@
+
+{
+  "name": "Spotify Mini Player And Ad Silencer",
+  "description": "A widget that let's you play/pause the current Spotify song, go backward the previous one, go forward the next one and see the name, artist and cover of the track. It also detects Spotify ads and silences them.",
+  "author": "David López",
+  "email": "david.lopez.castellote@gmail.com"
+}
