@@ -2,6 +2,8 @@
 
 First of all I would like to thank [Felix](https://github.com/felixhageloh) for the great work on creating Übersicht and keeping it updated day after day.
 
+[Übersicht](http://tracesof.net/uebersicht/) is an OSX App that let's you install and develop widgets written in HTML, CSS and JavaScript and see them in your OSX desktop.
+
 **Features**
 
 1. See the name, artist and album image of the current Spotify track in the desktop.
@@ -22,6 +24,16 @@ First of all I would like to thank [Felix](https://github.com/felixhageloh) for 
 2. Unzip the download and open the **Übersicht.app** file. You should see a Getting Started widget in the center of your desktop.
 3. Download the *Spotify-AdSilencer.widget.zip* file, unzip and put the uncompressed folder in the following location `/Users/\<username>\/Library/Application Support/Übersicht/widgets`
 4. Enjoy :)
+
+**Style modifications**
+
+You can easily change the style of the widget by modifying some of the Stylus CSS global variables:
+
+|Variable|Description|Values|
+|-----|-----|-----|
+|`player`|Wheter the Spotify mini player in the desktop|*true* or *false*|
+|`bottom`|Margin left from the widget to the bottom|Default it's 10%, can contain any CSS width compatible measure|
+|`right`|Margin left from the widget to the right|Default it's 2%, can contain any CSS width compatible measure
 
 **Final thoughts**
 
